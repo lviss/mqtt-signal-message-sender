@@ -1,0 +1,6 @@
+version: '2'
+services:
+  mqtt-signal-message-sender:
+    build: .
+    volumes:
+      - "./signal-cli-data:/root/.local/share/signal-cli"
